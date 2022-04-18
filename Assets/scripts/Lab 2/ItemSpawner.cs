@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class ItemSpawner : MonoBehaviour
 {
+    public GameObject[] pickups;
+    MeshFilter mFilter;
+    MeshRenderer mRenderer;
     // Start is called before the first frame update
     void Start()
     {
-        
+        Instantiate(pickups[Random.Range(0, pickups.Length)], this.transform);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
