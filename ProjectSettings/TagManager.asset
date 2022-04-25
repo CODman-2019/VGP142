@@ -6,14 +6,15 @@ TagManager:
   tags:
   - Collectable
   - Spawner
+  - E_Projectile
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
-  - 
+  - AI
   - 
   - 
   - 
